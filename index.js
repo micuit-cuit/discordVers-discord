@@ -3,12 +3,12 @@ const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const Log = require('mi-log');
 const path = require('node:path');
 const fs = require('node:fs');
+dotenv.config();
 const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:8080', {
+const ws = new WebSocket(process.env.CORE_SERVER_URL, {
     perMessageDeflate: false
 });
 const log = new Log([{ style: 'circle', color: 'yellow', text: 'project-vers' }]);
-dotenv.config();
 const client = new Client({ intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildPresences,
