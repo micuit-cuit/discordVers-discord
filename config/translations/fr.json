@@ -1,0 +1,71 @@
+{
+    "command.help.NAME": "aide",
+    "command.help.DESCRIPTION": "Affiche la liste des commandes",
+    "command.help.HELP": "Liste toutes les commandes",
+    "command.help.card.TITLE": "Commandes",
+    "command.help.card.DESCRIPTION": "Voici la liste de toutes les commandes disponibles",
+
+    
+    "command.inventory.NAME": "inventaire",
+    "command.inventory.DESCRIPTION": "Renvoie votre inventaire!",
+    "command.inventory.HELP": "Affiche votre inventaire",
+    "command.inventory.card.TITLE": "# Inventaire de {0}",
+    "command.inventory.card.description.UNSELECTED": "**inventaire**//rien à afficher",
+    "command.inventory.card.description.SELECTED": "**inventaire**//{0}",
+    "command.inventory.cards.description.QUANTITY": "**quantité**: {0}",
+    "command.inventory.button.ITEM": "{0} x{1}",
+    "command.inventory.card.FOOTER": "-# pour déplacer un item, cliquez sur l'item puis sur le slot de destination",
+    "command.inventory.button.HOTBAR": "Barre d'outils",
+    "command.inventory.button.actionBar.DROP": "Jeter",
+    "command.inventory.button.actionBar.USE": "Utiliser",
+    "command.inventory.button.actionBar.SELL": "Vendre",
+    "command.inventory.button.actionBar.SPLIT": "Diviser",
+    "command.inventory.ERROR": "Une erreur est survenue lors de la récupération de votre inventaire! Veuillez réessayer plus tard!",
+    "command.inventory.buttonReturn.ERROR_NOT_FOUND": "Cet inventaire n'a pas été trouvé! Veuillez réessayer la commande!",
+    "command.inventory.buttonReturn.ERROR_NOT_OWNER": "Cet inventaire n'est pas le vôtre! Veuillez utiliser votre inventaire!",
+    "command.inventory.buttonReturn.ERROR_EXPIRED": "Cet inventaire a expiré! Veuillez réessayer la commande!",
+    "command.inventory.modal.drop.TITLE": "Jeter l'item",
+    "command.inventory.modal.drop.DESCRIPTION": "Vous êtes sur le point de jeter {1} {0}.",
+    "command.inventory.modal.drop.INPUT": "Combien d'items voulez-vous jeter?",
+    "command.inventory.modal.split.TITLE": "Diviser l'item",
+    "command.inventory.modal.split.DESCRIPTION": "Vous êtes sur le point de diviser {1} {0}.",
+    "command.inventory.modal.split.INPUT": "Combien d'items voulez-vous diviser?",
+
+
+    "command.createUser.NAME": "enregistrer",
+    "command.createUser.DESCRIPTION": "Enregistrez-vous dans le jeu!",
+    "command.createUser.HELP": "Enregistrez-vous dans le jeu!",
+    "command.createUser.alreadyExists.TITLE": "Vous êtes déjà enregistré!",
+    "command.createUser.alreadyExists.DESCRIPTION": "Vous êtes déjà enregistré! Vous ne pouvez pas vous enregistrer deux fois!",
+    "command.createUser.created.TITLE": "Vous êtes maintenant enregistré!",
+    "command.createUser.created.DESCRIPTION": "Vous êtes maintenant enregistré! Vous pouvez maintenant jouer au jeu!",
+    "command.createUser.error.TITLE": "Une erreur est survenue!",
+    "command.createUser.error.DESCRIPTION": "Une erreur est survenue! Veuillez réessayer plus tard!",
+    
+    "command.createGuild.NAME": "enregistrer-guilde",
+    "command.createGuild.DESCRIPTION": "Enregistrer une guilde!",
+    "command.createGuild.HELP": "Enregistrer une guilde!",
+    "command.createGuild.documentation.TITLE": "Enregistrement de guilde",
+    "command.createGuild.documentation.DESCRIPTION": "Bienvenue dans {gameNAME}!\n    Vous êtes sur le point de créer une guilde, donc voila quelques informations à savoir:\n    - Chaque guilde a un univers propre, vous pouvrez voyager entre les univers en utilisant la {GATEWAY} qui se trouve au centre de votre univers.\n    - Chaque univers a entre 3 et 5 systèmes solaires, qui contiennent chacun entre 3 et 5 planètes. chaque planète a une atmosphère unique, qui détermine les ressources qu'elle contient.\n    - Chaque planette est visitable.\n\n    Quelques informations sur les guildes:\n    - les guildes sons lier au server discord, il n'est donc pas possible de changer le server discord d'une guilde.\n    - le generateur d'univers est aléatoire, donc chaque guilde est unique. ( il n'est pas fini, donc pour l'instant vous devrez importer votre propre univers)\n    - il n'y a pas de limite de membres dans une guilde.\n    \n    !ATTENTION! en créant une guilde le bot va crée des channels et des roles sur le server discord. ces role et channels sont essentiel pour le bon fonctionnement du jeu. veuillez donc ne pas les supprimer. mais vous pouvez les renommer.",
+    "command.createGuild.BUTTON" : "Créer une guilde",
+    "command.createGuild.error_already_exist.TITLE" : "Une guilde existe déjà!",
+    "command.createGuild.error_already_exist.DESCRIPTION" : "Une guilde existe déjà sur ce server discord! Vous ne pouvez pas créer deux guildes sur le même server discord!",
+    "command.createGuild.button.ERROR_NOT_OWNER" : "Vous n'êtes pas le propriétaire de la commande! Veuillez réessayer la commande!",
+    
+    "command.astuse.NAME": "astuce",
+    "command.astuse.DESCRIPTION": "Affiche l'une des meilleures astuces",
+    "command.astuse.HELP": "Affiche l'une des meilleures astuces",
+    
+    
+    
+    "astuse.list.atmosphere.NAME": "Atmosphère",
+    "astuse.list.atmosphere.DESCRIPTION": "L'atmosphère est la couche de gaz. cette couche de gaz est maintenue autour de la Planète. ** en observant l'atmosphère, nous pouvons en deduire la composition de la planète.les ressources potentielles qu'elle peut contenir. ** par exemple, une atmosphère est de couleur rouge, on peut en deduire que la planète est riche en fer ou metane.",
+
+
+    "item.apple.NAME": "Pomme",
+    "item.apple.EMOJI": "🍎",
+    "item.apple.DESCRIPTION": "Une délicieuse pomme",
+    "item.carrot.NAME": "Carotte",
+    "item.carrot.EMOJI": "🥕",
+    "item.carrot.DESCRIPTION": "Une carotte croquante"
+}

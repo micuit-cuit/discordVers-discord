@@ -1,0 +1,75 @@
+{
+    "command.help.NAME": "help",
+    "command.help.DESCRIPTION": "Displays the list of commands",
+    "command.help.HELP": "List all commands",
+    "command.help.card.TITLE": "Commands",
+    "command.help.card.DESCRIPTION": "Here is the list of all commands available",
+
+    "command.inventory.NAME": "inventory",
+    "command.inventory.DESCRIPTION": "Replies with your inventory!",
+    "command.inventory.HELP": "Displays your inventory",
+    "command.inventory.card.TITLE": "# {0}'s inventory",
+    "command.inventory.card.description.UNSELECTED": "**inventory**//nothing to show",
+    "command.inventory.card.description.SELECTED": "**inventory**//{0}",
+    "command.inventory.cards.description.QUANTITY": "**quantity**: {0}",
+    "command.inventory.button.ITEM": "{0} x{1}",
+    "command.inventory.card.FOOTER": "-# to move an item, click on the item then on the destination slot",
+    "command.inventory.button.HOTBAR": "Hotbar",
+    "command.inventory.button.actionBar.DROP": "Drop",
+    "command.inventory.button.actionBar.USE": "Use",
+    "command.inventory.button.actionBar.SELL": "Sell",
+    "command.inventory.button.actionBar.SPLIT": "Split",
+    "command.inventory.ERROR": "An error occured while fetching your inventory! Please try again later!",
+    "command.inventory.buttonReturn.ERROR_NOT_FOUND": "This inventory has not been found! Please retry the command!",
+    "command.inventory.buttonReturn.ERROR_NOT_OWNER": "This inventory is not yours! Please use your inventory!",
+    "command.inventory.buttonReturn.ERROR_EXPIRED": "This inventory has expired! Please retry the command!",
+    "command.inventory.modal.drop.TITLE": "Drop item",
+    "command.inventory.modal.drop.DESCRIPTION": "You are about to drop {1} {0}.",
+    "command.inventory.modal.drop.INPUT": "How many items do you want to drop?",
+    "command.inventory.modal.split.TITLE": "Split item",
+    "command.inventory.modal.split.DESCRIPTION": "You are about to split {1} {0}.",
+    "command.inventory.modal.split.INPUT": "How many items do you want to split?",
+
+    "command.createUser.NAME": "register",
+    "command.createUser.DESCRIPTION": "Register yourself to the game!",
+    "command.createUser.HELP": "Register yourself to the game!",
+    "command.createUser.alreadyExists.TITLE": "You are already registered!",
+    "command.createUser.alreadyExists.DESCRIPTION": "You are already registered! You can't register twice!",
+    "command.createUser.created.TITLE": "You are now registered!",
+    "command.createUser.created.DESCRIPTION": "You are now registered! You can now play the game!",
+    "command.createUser.error.TITLE": "An error occured!",
+    "command.createUser.error.DESCRIPTION": "An error occured! Please try again later!",
+
+    "command.createGuild.NAME": "register-guild",
+    "command.createGuild.DESCRIPTION": "Register a guild!",
+    "command.createGuild.HELP": "Register a guild!",
+    "command.createGuild.documentation.TITLE": "Guild registration",
+    "command.createGuild.documentation.DESCRIPTION": "Welcome to {gameNAME}!\n    You are about to create a guild, so here are some information to know:\n    - Each guild has its own universe, you will be able to travel between universes using the {GATEWAY} located at the center of your universe.\n    - Each universe has between 3 and 5 solar systems, which each contain between 3 and 5 planets. each planet has a unique atmosphere, which determines the resources it contains.\n    - Each planet is visitable.\n\n    Some information about guilds:\n    - guilds are linked to the discord server, so it is not possible to change the discord server of a guild.\n    - the universe generator is random, so each guild is unique. (it is not finished, so for now you will have to import your own universe)\n    - there is no limit of members in a guild.\n    \n    !WARNING! by creating a guild the bot will create channels and roles on the discord server. these roles and channels are essential for the proper functioning of the game. so please do not delete them. but you can rename them.",
+    "command.createGuild.BUTTON" : "Create a guild",
+    "command.createGuild.ERROR" : "An error occured while creating the guild! Please try again later!",
+    "command.createGuild.error_already_exist.TITLE" : "A guild already exists!",
+    "command.createGuild.error_already_exist.DESCRIPTION" : "A guild already exists on this discord server! You can't create two guilds on the same discord server!",
+    "command.createGuild.button.ERROR_NOT_OWNER" : "You are not the owner of the command! Please retry the command!",
+    "command.createGuild.modal.TITLE": "Guild creation",
+    "command.createGuild.modal.INPUT_LABEL": "You are about to create a guild. Please enter the name of the guild.",
+    "command.createGuild.modal.INPUT_PLACEHOLDER": "Guild name",
+    
+
+
+    "command.astuse.NAME": "astuse",
+    "command.astuse.DESCRIPTION": "Displays one of the best astuse",
+    "command.astuse.HELP": "Displays one of the best astuse",
+
+
+    "astuse.list.atmosphere.NAME": "Atmosphere",
+    "astuse.list.atmosphere.DESCRIPTION": "The atmosphere is the layer of gases. this layer of gases is maintained around the Planet. ** by observing the atmosphere, we can deduce the composition of the planet.the potential resources it may contain. ** for example, an atmosphere is red, we can deduce that the planet is rich in iron or methane.",
+
+
+
+    "item.apple.NAME": "Apple",
+    "item.apple.EMOJI": "🍎",
+    "item.apple.DESCRIPTION": "A delicious apple",
+    "item.carrot.EMOJI": "🥕",
+    "item.carrot.NAME": "Carrot",
+    "item.carrot.DESCRIPTION": "A crunchy carrot"
+}
